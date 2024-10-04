@@ -1,0 +1,132 @@
+
+
+/* WIDGET */
+.widget {
+    list-style-type: none;
+}
+
+
+/* DESKTOP MENU */
+.desktop-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.desktop-links .menu-item {
+    font-weight: bold;
+    font-size: large;
+}
+
+.desktop-links .menu-item:hover {
+    color: #c67b17;
+}
+
+.desktop-links .menu-item a {
+
+}   
+
+/* MOBILE MENU */
+.mobile-links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.mobile-links .menu-item {
+    
+    height: 100px;
+    text-align: center;
+    background-color: #c67b17;
+    color: white;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.mobile-links .menu-item:hover {
+    background-color: #8f5d1a;
+}
+
+.mobile-links .menu-item a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* PAGE CONTENT */
+.page-content ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.page-content li{
+    list-style-type: disc;
+}
+
+
+/* FILTERS */
+/* .filters_box {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .filters_box {
+        display: flex;
+    }            
+} */
+
+
+/* FOOTER MENUS */
+
+/* UPPER MENU */
+
+footer .menu-main-container {
+    width: 100%;
+}
+
+.footer-upper-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-upper-links .menu-item {
+    /* font-weight: bold; */
+    font-size: large;
+}
+
+/* LOWER MENU */
+.menu-footer-container {
+    width: 100%;
+}
+
+.footer-lower-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-lower-links .menu-item {
+    /* font-weight: bold; */
+    font-size: large;
+    
+}
+
+footer .menu-item:hover {
+    color: #c67b17;
+}
